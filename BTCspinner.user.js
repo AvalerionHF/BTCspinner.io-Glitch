@@ -4,7 +4,7 @@
 // @description     BTCspinner.io Glitch.
 // @require         https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @include         *://btcspinner.io/game
-// @version         1.0
+// @version         1.1
 // ==/UserScript==
 
 var game = null;
@@ -74,7 +74,7 @@ function BTCspinner()
             speed: 170,
             minimalSpeed: 0.01,
             onRotate: function () {
-                if (this.speed < 150) {this.speed = 170; }
+                if (this.speed < 50) {this.speed = Math.floor((Math.random() * 170) + 1);  }
                 storage.push({d: d, s: this.speed});
                 speed = Math.abs(this.speed);
                 rotations++;
