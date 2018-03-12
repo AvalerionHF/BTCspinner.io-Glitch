@@ -1,5 +1,5 @@
 # BTCspinner.io-Glitch
-The only working glitch for BTCspinner.io. Works if you import it to Tampermonkey. Read the instructions. 
+Works if you import it to Tampermonkey. Read the instructions. 
 
 **BTCspinner.io Website:** https://goo.gl/duk4Df
 
@@ -10,5 +10,7 @@ The only working glitch for BTCspinner.io. Works if you import it to Tampermonke
 - Browse to BTCspinner.io and click "Play" button.
 
 # Known Issues
-1. Spinner stops spinning; you will need to refresh the page if that happens.
-2. Spinner doesn't start all/blurred out; you will need to refresh the page if that happens.
+1. Spinner stops spinning / blurs out; you will need to refresh the page if that happens.
+2. Spinner doesn't start at all / is blurred out; you will need to refresh the page if that happens.
+
+~Avalerion@HF
