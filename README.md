@@ -7,7 +7,8 @@ Works if you import it to Tampermonkey. Read the instructions.
 # Instructions
 - Get Tampermonkey for Firefox/Chrome.
 - Import the **BTCspinner.user.js** script into Tampermonkey.
-- Browse to BTCspinner.io and click "Play" button.
+- Browse BTCspinner.io website and click "Play" button.
+- Script will start automatically.
 
 # Known Issues
 1. Spinner stops spinning / blurs out; you will need to refresh the page if that happens.
